@@ -112,40 +112,7 @@ Instead of juggling spreadsheets or notes, this app gives you a centralized syst
 
 ---
 
-
-##  Getting Started (Docker)
-
-### 1. Clone the repository
-
-```bash
-git clone https://github.com/tamani-percy/you_jobo.git
-cd job-tracker
-```
-
----
-
-### 2. Run the application using Docker Compose
-
-```bash
-docker compose up --build
-```
-
-This will:
-
-* Spin up MySQL
-* Build and run the Spring Boot backend
-* Build and serve the Vue frontend
-
----
-
-### 3. Access the application
-
-* Frontend: `http://localhost:5173`
-* Backend API: `http://localhost:8080`
-
----
-
-### 4. AI-Powered Insights
+### AI-Powered Insights
 
 The application includes AI-assisted features designed to help users make better decisions during their job search.
 
@@ -207,6 +174,41 @@ The application includes AI-assisted features designed to help users make better
 
 * Recommend which jobs deserve attention today
 * Help users decide where to focus follow-ups, preparation, or resume tailoring
+
+-----
+
+
+##  Getting Started (Docker)
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/tamani-percy/you_jobo.git
+cd job-tracker
+```
+
+---
+
+### 2. Run the application using Docker Compose
+
+```bash
+docker compose up --build
+```
+
+This will:
+
+* Spin up MySQL
+* Build and run the Spring Boot backend
+* Build and serve the Vue frontend
+
+---
+
+### 3. Access the application
+
+* Frontend: `http://localhost:5173`
+* Backend API: `http://localhost:8080`
+
+---
 
 ## Known Limitations
 
